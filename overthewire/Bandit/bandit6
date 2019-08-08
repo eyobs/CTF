@@ -1,0 +1,2 @@
+find . -readable -size 1033c ! -executable
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
