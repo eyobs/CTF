@@ -1,0 +1,11 @@
+=>listen on 127.0.0.1 on port 44444
+$ nc -lv 127.0.0.1 -p 44444
+
+=>run the program with the port
+./dfaadsfaasdfaf 44444
+
+=>send the password for the current bandit on 
+the listening end.
+
+
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

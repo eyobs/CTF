@@ -1,0 +1,115 @@
+nmap 127.0.0.1 -p 31000-32000
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2019-08-14 13:01 CEST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00022s latency).
+Not shown: 999 closed ports
+PORT      STATE SERVICE
+31518/tcp open  unknown
+31790/tcp open  unknown
+
+echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -connect localhost:31790 -ign_eof
+
+CONNECTED(00000003)
+depth=0 CN = localhost
+verify error:num=18:self signed certificate
+verify return:1
+depth=0 CN = localhost
+verify return:1
+---
+Certificate chain
+ 0 s:/CN=localhost
+   i:/CN=localhost
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIICBjCCAW+gAwIBAgIEIRCKRDANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAls
+b2NhbGhvc3QwHhcNMTkwODAzMTU1MTQ5WhcNMjAwODAyMTU1MTQ5WjAUMRIwEAYD
+VQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALjLe4CV
+y7o3TByY368V/nUFggs4EXLB6OPxbM7n9XR2fP5gBBFXeqT3jaupydtSYhWXTrgP
+PqwB2Bk5v+v7twT6KZCM5ks54NgGqH8l48zzvqBFwvllQfpARfq0GTLixbrxuSmp
+w9F8efzpOfxnoMdG9zvGBSm8M+UdAiQuprVpAgMBAAGjZTBjMBQGA1UdEQQNMAuC
+CWxvY2FsaG9zdDBLBglghkgBhvhCAQ0EPhY8QXV0b21hdGljYWxseSBnZW5lcmF0
+ZWQgYnkgTmNhdC4gU2VlIGh0dHBzOi8vbm1hcC5vcmcvbmNhdC8uMA0GCSqGSIb3
+DQEBBQUAA4GBAHQ18wczrve2XIGz+hzhqZJ402L+pa5nl5ci76tTPtK0nAh4v+Ey
+UlM+XvuL5l/opTiI6/+cObNUGOEpv8kVfwdAYiTr5RlXe9mBRErQl4r3PnhZylJM
+cVD7/BsFM3uACmHVI5KRs2JSmnB4+sfZifHPxaMsLJvF6dUuHr+YC7E0
+-----END CERTIFICATE-----
+subject=/CN=localhost
+issuer=/CN=localhost
+---
+No client certificate CA names sent
+Peer signing digest: SHA512
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 1019 bytes and written 269 bytes
+Verification error: self signed certificate
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 1024 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: B9A15E13F9B50954F26AFB0D3B0BDEE3094DC3B0BBC2EF6DE1C01F9D4FB32096
+    Session-ID-ctx: 
+    Master-Key: 911C678AF0701F40A6411F8CE28716A61BEF6CAD9E7BB7D613F3B3114A4687CEE465AD20A7DE42DB0E49C2EA33AB4139
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 5c fe f6 48 80 2f 25 d8-f9 76 de 4d a7 c5 95 a7   \..H./%..v.M....
+    0010 - 96 1a e9 21 9b f7 f2 49-46 6c f8 23 fd 91 50 81   ...!...IFl.#..P.
+    0020 - 22 4e 28 90 fa cc ac 47-f8 b5 70 3a 2c 6e e8 10   "N(....G..p:,n..
+    0030 - 61 55 c8 64 57 36 c4 0d-67 ae 4c b7 1e 83 72 32   aU.dW6..g.L...r2
+    0040 - 33 3e 42 29 3f af ac 25-c7 64 b2 d2 ee 9c c5 1e   3>B)?..%.d......
+    0050 - f4 9c 58 10 7a c3 6f db-cb 8a 7d 7b d8 b1 ef 75   ..X.z.o...}{...u
+    0060 - e7 c8 47 5d c8 64 e4 ed-7b cd 37 7f cf ff 6e f7   ..G].d..{.7...n.
+    0070 - a0 17 03 e6 9d 85 6f 56-38 ed 14 d5 d7 f8 21 c6   ......oV8.....!.
+    0080 - 4e 4f 22 62 cb c0 51 b6-dc 1d a9 7b 38 aa 40 b9   NO"b..Q....{8.@.
+    0090 - 69 d8 ca 71 7f 81 70 4f-d0 d1 63 09 88 46 02 ce   i..q..pO..c..F..
+
+    Start Time: 1565782073
+    Timeout   : 7200 (sec)
+    Verify return code: 18 (self signed certificate)
+    Extended master secret: yes
+---
+Correct!
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+closed
+
+
+=>save the rsa key as bandit17.key
+=>chmod 400 bandit17.key
+=>ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
