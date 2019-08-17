@@ -1,0 +1,46 @@
+=>cat readme
+
+# Bandit Notes
+Some notes for bandit30 of bandit.
+
+## credentials
+
+- username: bandit30
+- password: <no passwords in production!>
+
+=>git log
+commit 84abedc104bbc0c65cb9eb74eb1d3057753e70f8
+Author: Ben Dover <noone@overthewire.org>
+Date:   Tue Oct 16 14:00:41 2018 +0200
+
+    fix username
+
+commit 9b19e7d8c1aadf4edcc5b15ba8107329ad6c5650
+Author: Ben Dover <noone@overthewire.org>
+Date:   Tue Oct 16 14:00:41 2018 +0200
+
+    initial commit of README.md
+
+=>git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/dev
+  remotes/origin/master
+  remotes/origin/sploits-dev
+
+=>git checkout dev
+Branch dev set up to track remote branch dev from origin.
+Switched to a new branch 'dev'
+
+=>ls
+code  README.md
+
+=>cat README.md
+# Bandit Notes
+Some notes for bandit30 of bandit.
+
+## credentials
+
+- username: bandit30
+- password: 5b90576bedb2cc04c86a9e924ce42faf
+

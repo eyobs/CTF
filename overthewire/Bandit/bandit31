@@ -1,0 +1,10 @@
+=>clone the repo then
+
+=>ls
+README.md
+
+=>git tag -l
+secret
+
+=>git show secret 
+47e603bb428404d265f59c42920d81e5
