@@ -4,7 +4,7 @@
 // hashcode = 568134124
 
 unsigned long hashcode = 0x21DD09EC;
-char* cmp = "12345678901234567890";
+char* cmp = "2"; //"8901234567890";
 
 unsigned long check_password(const char* p){
         int* ip = (int*)p;
