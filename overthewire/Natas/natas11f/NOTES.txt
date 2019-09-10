@@ -1,0 +1,8 @@
+JSON 
+	JavaScript Object Notation.
+	JSON is a syntax for storing and exchanging data.
+	JSON is text, written with JavaScript object notation.
+	JSON is a lightweight data-interchange format
+	JSON is language independent *
+		=JSON.stringify(js object)
+		=JSON.parse(json text)
