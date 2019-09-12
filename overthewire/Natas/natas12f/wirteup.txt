@@ -1,0 +1,10 @@
+=> the vulnerebility on this level is a file upload vulnerebility
+=> the page uses clintside check for the type of file uploaded
+=> and if we can change that using a proxy we can upload what ever kind of file we like to upload.
+=> so i wrote "payload.php" and to upload it successfully as a php file the the file name generated with
+genRandomString(); on the request has to be changed from a .jpg to .php
+=> after uploading the file when we go to the location of the file we get the password to the nxt level
+
+Array ( [dirname] => /etc/natas_webpass [basename] => natas13 [filename] => natas13 ) jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY 
+
+walla!
