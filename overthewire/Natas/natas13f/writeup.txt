@@ -1,0 +1,12 @@
+=>what this level differes from the previous one is that it included a check for file type 
+	exif_imagetype() -> this function return +ve number if the file given is an image type
+			 -> what the function does is check the magic number of the file uploaded
+				->so if we add an images magic number to the file we are uploading
+				  we can bypass it!
+=>so uploading the already made file("shell.jpg") by changing the random name on the request
+to .php and accessing it gives us a shell! eg ?cmd=ls
+				?cmd=cat /etc/natas_webpass/natas13
+
+
+https://stackoverflow.com/questions/18357095/how-to-bypass-the-exif-imagetype-function-to-upload-php-code
+

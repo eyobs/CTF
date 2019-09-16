@@ -7,10 +7,12 @@
 <script src="http://natas.labs.overthewire.org/js/jquery-1.9.1.js"></script>
 <script src="http://natas.labs.overthewire.org/js/jquery-ui.js"></script>
 <script src=http://natas.labs.overthewire.org/js/wechall-data.js></script><script src="http://natas.labs.overthewire.org/js/wechall.js"></script>
-<script>var wechallinfo = { "level": "natas12", "pass": "<censored>" };</script></head>
+<script>var wechallinfo = { "level": "natas13", "pass": "<censored>" };</script></head>
 <body>
-<h1>natas12</h1>
+<h1>natas13</h1>
 <div id="content">
+For security reasons, we now only accept image files!<br/><br/>
+
 <? 
 
 function genRandomString() {
@@ -39,10 +41,18 @@ function makeRandomPathFromFilename($dir, $fn) {
 
 if(array_key_exists("filename", $_POST)) {
     $target_path = makeRandomPathFromFilename("upload", $_POST["filename"]);
-
-
-        if(filesize($_FILES['uploadedfile']['tmp_name']) > 1000) {
+    
+    $err=$_FILES['uploadedfile']['error'];
+    if($err){
+        if($err === 2){
+            echo "The uploaded file exceeds MAX_FILE_SIZE";
+        } else{
+            echo "Something went wrong :/";
+        }
+    } else if(filesize($_FILES['uploadedfile']['tmp_name']) > 1000) {
         echo "File is too big";
+    } else if (! exif_imagetype($_FILES['uploadedfile']['tmp_name'])) {
+        echo "File is not an image";
     } else {
         if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
             echo "The file <a href=\"$target_path\">$target_path</a> has been uploaded";

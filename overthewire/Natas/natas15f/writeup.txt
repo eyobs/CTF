@@ -1,0 +1,2 @@
+=>This is a blind sqli 
+=>to exploit it use the steps on the file "my.sql"
