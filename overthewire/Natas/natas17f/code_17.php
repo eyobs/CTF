@@ -1,4 +1,4 @@
-<html>
+   <html>
 <head>
 <!-- This stuff in the header has nothing to do with the level -->
 <link rel="stylesheet" type="text/css" href="http://natas.labs.overthewire.org/css/level.css">
