@@ -1,0 +1,2 @@
+=> php super global variables
+* PHP $_REQUEST is used to collect data after submitting an HTML form.
