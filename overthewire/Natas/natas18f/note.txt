@@ -1,0 +1,20 @@
+=>HTTP is a stateless protocol. A stateless protocol does not require the server to retain 
+information or status about each user for the duration of multiple requests. But some web 
+applications may have to track the user's progress from page to page, for example when a web 
+server is required to customize the content of a web page for a user. 
+Solutions for these cases include:
+        * the use of HTTP cookies.
+        * server side sessions,
+        * hidden variables (when the current page contains a form), and
+        * URL-rewriting using URI-encoded parameters, e.g., /index.php?session_id=some_unique_session_code.
+
+Session variables solve this problem by storing user information to be used across multiple 
+pages (e.g. username, favorite color, etc). By default, session variables last until the user 
+closes the browser.        
+* A session is a way to store information (in variables) to be used across multiple pages.
+  Unlike a cookie, the information is not stored on the users computer.
+
+=>A session is started with the session_start() function.
+Session variables are set with the PHP global variable: $_SESSION.
+=>$_SESSION : all session variable values are stored in the global $_SESSION variable
+    
