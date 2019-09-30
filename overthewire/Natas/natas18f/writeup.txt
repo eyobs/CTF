@@ -1,0 +1,10 @@
+=> to get a session that have admin
+just fuzz the Cookie: PHPSESSID=
+
+when you set PHPSESSID=119
+
+Username: natas19
+Password: 4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs
+
+-> that means there is an admin that is logged in using that
+ session id currently!
