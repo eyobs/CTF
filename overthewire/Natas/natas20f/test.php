@@ -15,9 +15,9 @@
 <?php
 
 function debug($msg) { /* {{{ */
-    if(array_key_exists("debug", $_GET)) {
+    // if(array_key_exists("debug", $_GET)) {
         print "DEBUG: $msg<br>";
-    }
+    // }
 }
 /* }}} */
 function print_credentials() { /* {{{ */
@@ -27,6 +27,10 @@ function print_credentials() { /* {{{ */
     print "Password: <censored></pre>";
     } else {
     print "You are logged in as a regular user. Login as an admin to retrieve credentials for natas21.";
+    
+    echo '<pre>';
+    var_dump($_SESSION);
+    echo '</pre>';
     }
 }
 /* }}} */
@@ -49,7 +53,7 @@ function myread($sid) {
     debug("Invalid SID"); 
         return "";
     }
-    $filename = session_save_path() . "/" . "mysess_" . $sid;
+    $filename = session_save_path() . "/tmp/" . "mysess_" . $sid;
     if(!file_exists($filename)) {
         debug("Session file doesn't exist");
         return "";
@@ -74,7 +78,7 @@ function mywrite($sid, $data) {
     debug("Invalid SID"); 
         return;
     }
-    $filename = session_save_path() . "/" . "mysess_" . $sid;
+    $filename = session_save_path() . "/tmp/" . "mysess_" . $sid;
     $data = "";
     debug("Saving in ". $filename);
     echo $filename;
@@ -122,7 +126,7 @@ if(array_key_exists("name", $_SESSION)) {
 
 ?>
 
-<form action="index.php" method="POST">
+<form action="test.php" method="POST">
 Your name: <input name="name" value="<?=$name?>"><br>
 <input type="submit" value="Change name" />
 </form>

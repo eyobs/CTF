@@ -1,0 +1,5 @@
+=> session_set_save_handler() sets the user-level session storage functions which are used for storing 
+    and retrieving data associated with a session. This is most useful when a storage method other than 
+    those supplied by PHP sessions is preferred, e.g. storing the session data in a local database. 
+
+=> strspn — Finds the length of the initial segment of a string consisting entirely of characters contained within a given mask 

