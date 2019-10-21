@@ -15,7 +15,7 @@
 <b>Note: this website is colocated with <a href="http://natas21-experimenter.natas.labs.overthewire.org">http://natas21-experimenter.natas.labs.overthewire.org</a></b>
 </p>
 
-<?php
+<?
 
 function print_credentials() { /* {{{ */
     if($_SESSION and array_key_exists("admin", $_SESSION) and $_SESSION["admin"] == 1) {
@@ -36,4 +36,4 @@ print_credentials();
 <div id="viewsource"><a href="index-source.html">View sourcecode</a></div>
 </div>
 </body>
-</html> 
+</html>

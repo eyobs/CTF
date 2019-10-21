@@ -17,10 +17,17 @@ if(array_key_exists("submit", $_REQUEST)) {
     }
 }
 
+
+
 if(array_key_exists("debug", $_GET)) {
     print "[DEBUG] Session contents:<br>";
     print_r($_SESSION);
 }
+
+echo '$_REQUEST'. PHP_EOL;
+var_dump($_REQUEST);
+echo '$_SESSION'. "\xA";
+print_r($_SESSION);
 
 // only allow these keys
 $validkeys = array("align" => "center", "fontsize" => "100%", "bgcolor" => "yellow");
@@ -30,9 +37,9 @@ $form .= '<form action="index.php" method="POST">';
 foreach($validkeys as $key => $defval) {
     $val = $defval;
     if(array_key_exists($key, $_SESSION)) {
-    $val = $_SESSION[$key];
+        $val = $_SESSION[$key];
     } else {
-    $_SESSION[$key] = $val;
+        $_SESSION[$key] = $val;
     }
     $form .= "$key: <input name='$key' value='$val' /><br>";
 }
