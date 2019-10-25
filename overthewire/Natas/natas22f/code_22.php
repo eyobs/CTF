@@ -1,3 +1,15 @@
+<?
+session_start();
+
+if(array_key_exists("revelio", $_GET)) {
+    // only admins can reveal the password
+    if(!($_SESSION and array_key_exists("admin", $_SESSION) and $_SESSION["admin"] == 1)) {
+    header("Location: /");
+    }
+}
+?>
+
+
 <html>
 <head>
 <!-- This stuff in the header has nothing to do with the level -->
@@ -7,30 +19,17 @@
 <script src="http://natas.labs.overthewire.org/js/jquery-1.9.1.js"></script>
 <script src="http://natas.labs.overthewire.org/js/jquery-ui.js"></script>
 <script src=http://natas.labs.overthewire.org/js/wechall-data.js></script><script src="http://natas.labs.overthewire.org/js/wechall.js"></script>
-<script>var wechallinfo = { "level": "natas21", "pass": "<censored>" };</script></head>
+<script>var wechallinfo = { "level": "natas22", "pass": "<censored>" };</script></head>
 <body>
-<h1>natas21</h1>
+<h1>natas22</h1>
 <div id="content">
-<p>
-<b>Note: this website is colocated with <a href="index_exp.php">index_exp.php</a></b>
-</p>
 
-<?php
-
-function print_credentials() { /* {{{ */
-    if($_SESSION and array_key_exists("admin", $_SESSION) and $_SESSION["admin"] == 1) {
+<?
+    if(array_key_exists("revelio", $_GET)) {
     print "You are an admin. The credentials for the next level are:<br>";
-    print "<pre>Username: natas22\n";
+    print "<pre>Username: natas23\n";
     print "Password: <censored></pre>";
-    } else {
-    print "You are logged in as a regular user. Login as an admin to retrieve credentials for natas22.";
     }
-}
-/* }}} */
-
-session_start();
-print_credentials();
-
 ?>
 
 <div id="viewsource"><a href="index-source.html">View sourcecode</a></div>

@@ -1,0 +1,3 @@
+=>header() is used to send a raw HTTP header.
+    -> header("Location: /") redirects the page to the default / or index.php (mostly)
+=> /?revelio ....

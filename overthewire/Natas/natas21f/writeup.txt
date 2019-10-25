@@ -1,0 +1,13 @@
+=> editing the php session file of the main page with the experimentor by changing 
+   the id and inserting &admin=1 on the post request.
+   this makes an entry on the sess* file that has 
+            =>align|s:6:"center";fontsize|s:4:"100%";bgcolor|s:3:"red";submit|s:6:"Update";admin|s:1:"1";
+            which includes admin=1
+
+=> the refrereshing the first page gives us :
+
+
+You are an admin. The credentials for the next level are:
+
+Username: natas22
+Password: chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ
