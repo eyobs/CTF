@@ -1,0 +1,5 @@
+=> strstr() searches for the first occurrence of a string inside another string.
+=> https://www.php.net/manual/en/language.types.string.php#language.types.string.conversion
+    when comparing a string with int it takes the first char ... if its int it takes its value
+    Eg. echo ("90hhh iloveyou" > 10 )  is true
+        but echo ("9hhh iloveyou" > 10 ) is false

@@ -1,0 +1,4 @@
+=> The include statement includes and evaluates the specified file. 
+=> readdir() : 
+=> str_replace — Replace all occurrences of the search string with the replacement string
+=> 

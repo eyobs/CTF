@@ -1,0 +1,5 @@
+here we have to see the response before the redirection happens (302 response)
+
+
+You are an admin. The credentials for the next level are:<br><pre>Username: natas23
+Password: D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE

