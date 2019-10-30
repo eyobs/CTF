@@ -1,0 +1,4 @@
+ssh krypton1@krypton.labs.overthewire.org -p2222
+
+YRIRY GJB CNFFJBEQ EBGGRA => Rot13
+
