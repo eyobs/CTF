@@ -1,0 +1,15 @@
+The serialize() converts a storable representation of a value.
+
+A serialize data means a sequence of bits so that it can be stored in a file, a memory buffer, or transmitted 
+across a network connection link. 
+
+=>imagecreatetruecolor() returns an image identifier representing a black image of the specified size. 
+  imagecolorallocate ( resource $image , int $red , int $green , int $blue ) : int
+     Allocate a color for an image
+
+=> imageline() Draw a line between the two given points. 
+    imageline ( resource $image , int $x1 , int $y1 , int $x2 , int $y2 , int $color ) : bool
+
+=> imagepng() — Output a PNG image to either the browser or a file
+         imagepng ( resource $image [, mixed $to = NULL [, int $quality = -1 [, int $filters = -1 ]]] ) : bool
+
