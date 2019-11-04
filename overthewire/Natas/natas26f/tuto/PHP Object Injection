@@ -1,0 +1,16 @@
+PHP Object Injection
+
+
+-- Serialization Vulnerabilities in other Languages
+    python pickle
+    java
+-- PHP - Classes - Object
+-- serialize unserialize
+-- magic methods (user for exploitation)
+    -- wakeup
+    -- sleep
+    -- destruct
+    -- toString
+    -- call
+    -- etc...
+
