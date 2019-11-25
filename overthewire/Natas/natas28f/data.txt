@@ -1,0 +1,53 @@
+[*] 8 chars.    | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjP JFPgAgYC9NzNUPDrdwlHfCiW3pCIT4YQixZ/i0rqXXY5FyMgUUg+aORY/QZhZ7MKM=
+[*] 9 chars.    | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjP KeYiaGpSZAWVcGCZq8sFK7oJUi8wHPnTascCPxZZSMWpc5zZBSL6eob5V3O1b5+MA=
+[*] 10 chars.   | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oe c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] 11 chars.   | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oe tO2gh9PAvqK+3BthQLni68qM9OYQkTq645oGdhkgSlo=
+[*] 12 chars.   | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oe zoKpVTtluBKA+2078pAPR3X9UET9Bj0m9rt/c0tByJk=
+[*] 13 chars.   | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oe H3RxTXb8xdRkxqIh5u2Y5GIjoU2cQpG5h3WwP7xz1O3YrlHX2nGysIPZGaDXuIuY
+[*] 14 chars.   | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oe 7NNvj9kWTUA1QORJcH0n5UJXo0PararywOOh1xzgPdF7e6ymVfKYoyHpDj96YNTY
+[*] 15 chars.   | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oe Wu8qmX2iNj9yo/rTMtFzb6dz8xhQlKoBQI8fl9A304VnjFdz7MKPhw5PTrxsgHCk
+
+
+[*] last char. = a | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oec4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = b | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKCPMmZvbzQk9NC+JQAafwAc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = c | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKbNwAJ40Y4739F+KN0ABiBc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = d | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLyUrlNHGmbU5VOlSvIRSgHc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = e | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJgCZkJIP/TRxdxIEAEMjPDc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = f | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJ08lSA78jTM9Ua5rbw52ybc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = g | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJF2SVwUrbSH2wcjpjQBhaac4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = h | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPL9DcdU2zSh6YJ+SratCqPKc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = i | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLkiv6PSDVuCPiEX2J9bfwhc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = j | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJQSGOnyzyQtTV6AJRiYXj+c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = k | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPK2Bi1E2BgVQr8sx/9JEWAac4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = l | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLTTirrwYicje927SnSYzvhc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = m | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJb81F688dIis2g9WOWYeHCc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = n | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKJDEzy+vonxSiL4Y5TNeV6c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = o | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKgyQZj1WMgyffTQPDFaJNKc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = p | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKegQWfO86t5dLIW+uoYow+c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = q | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIKhaJ4DfMV78MWEHCBfYaLc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = r | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLvmzCoKGvUPaBpvb8IBXsfc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = s | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIStkZCeJf4JwcqJ0JwLHlmc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = t | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJHc7gk/1XmARH9FtUJTBcSc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = u | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKvZGttVN6Ror5FnG6pa8stc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = v | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJocuD0SNEswX+w7F1PAYP9c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = w | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIRdV6Y9QYP73MexfaN7a02c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = x | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJMzQgpLK531J6uhqGI3STjc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = y | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJq/IL8vzq2NsiU0FduYUIWc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = z | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPITVwDo9i6rKdJyANaW7USic4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+
+
+
+
+
+[*] last char. = a | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLAhy3ui8kLEVaROwiiI6Oec4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = b | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKCPMmZvbzQk9NC+JQAafwAc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = c | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKbNwAJ40Y4739F+KN0ABiBc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = d | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPLyUrlNHGmbU5VOlSvIRSgHc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = e | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPJgCZkJIP/TRxdxIEAEMjPDc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = ' | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIR27gK4CQl3Jcmv/0YAxYOstdkbwCSkbjZzJR1FrozncqM9OYQkTq645oGdhkgSlo=
+[*] last char. = " | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIR27gK4CQl3Jcmv/0YAxYOe0uzFQTQyTJF5uPUK3I8gMqM9OYQkTq645oGdhkgSlo=
+[*] last char. = \ | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIR27gK4CQl3Jcmv/0YAxYOfN5woKhSkQjlY0g5eVSYncqM9OYQkTq645oGdhkgSlo=
+[*] last char. = - | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPKIUFra9Df1lRzdwe7N9yKac4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = . | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIIceJ3g0x1znk8bFaqi59Pc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = / | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPL+kURx48/lnPaQYziuoMEKc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=
+[*] last char. = : | G+glEae6W/1XjA7vRm21nNyEco/c+J2TdR0Qp8dcjPIcthQDmC0uZUSnNjBCzetpc4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=

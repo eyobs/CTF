@@ -4,8 +4,7 @@ import urllib
 import base64
 import string
 
-charset = string.ascii_lowercase
-
+charset = "abcde\'\"\\-./:"
 
 url = "http://natas28.natas.labs.overthewire.org/index.php"
 s = requests.Session()
