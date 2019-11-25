@@ -1,0 +1,13 @@
+=> padding oracle cbc mode ?  [X]
+=> ecb mode chosen plain text attack ? 
+
+
+https://github.com/ticarpi/jwt_tool/wiki#menu
+
+https://axcheron.github.io/writeups/otw/natas/
+https://trailofbits.github.io/ctf/
+https://github.com/apsdehal/awesome-ctf
+http://ctfs.github.io/resources/topics/cryptography/README.html
+https://awesomeopensource.com/projects/ctf
+http://smashthestack.org/wargames.html
+https://stackoverflow.com/questions/48422377/youtube-downloading-a-playlist-youtube-dl

