@@ -1,0 +1,12 @@
+array injection to qoute though param
+
+
+
+natas31hay7aecuungiuKaezuathuk9biin0pu1
+
+
+
+
+
+further here: 
+https://security.stackexchange.com/questions/175703/is-this-perl-database-connection-vulnerable-to-sql-injection
