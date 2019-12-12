@@ -1,0 +1,6 @@
+https://www.blackhat.com/docs/asia-16/materials/asia-16-Rubin-The-Perl-Jam-2-The-Camel-Strikes-Back.pdf
+
+=>seems we have to exploit this file inclusion and rendering capability of the script by making it render the contents of our password file.
+
+
+????

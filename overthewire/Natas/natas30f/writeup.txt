@@ -1,4 +1,4 @@
-array injection to qoute though param
+array injection to qoute() though param
 
 
 
