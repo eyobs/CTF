@@ -1,2 +1,4 @@
 scp -r -P2226 narnia0@narnia.labs.overthewire.org:/narnia ./
 
+
+/etc/narnia_pass/narnia
