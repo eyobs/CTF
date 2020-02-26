@@ -1,0 +1,5 @@
+ssh -lnarnia0 -p2226 narnia.labs.overthewire.org
+ssh -p2226 narnia0@narnia.labs.overthewire.org
+
+not
+ssh narnia0narnia.labs.overthewire.org -p2226
